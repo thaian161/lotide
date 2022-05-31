@@ -1,6 +1,7 @@
 // Function to retrieve the first element from the array
 // Lodash: https://lodash.com/docs/4.17.15#head
 
+// asserEqual function
 const assertEqual = function (actual, expected) {
   if (actual === expected) {
     console.log(`✔️✔️✔️: ${actual} === ${expected}`);
@@ -9,6 +10,7 @@ const assertEqual = function (actual, expected) {
   }
 };
 
+//head function
 const head = function (array) {
   return array[0];
 };

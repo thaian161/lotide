@@ -1,6 +1,7 @@
 // Function to retrieve every element except the head (first element) of the array.
 // Lodash: https://lodash.com/docs/4.17.15#tail
 
+// asserEqual function
 const assertEqual = function (actual, expected) {
   if (actual === expected) {
     console.log(`✔️✔️✔️: ${actual} === ${expected}`);
@@ -9,6 +10,7 @@ const assertEqual = function (actual, expected) {
   }
 };
 
+//Tail function
 const tail = function (array) {
   return array.slice(1);
 };

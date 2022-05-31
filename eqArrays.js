@@ -1,3 +1,5 @@
+//A function that can compare two arrays for a perfect match
+
 // assertEqual function
 const assertEqual = function (actual, expected) {
   if (actual === expected) {
