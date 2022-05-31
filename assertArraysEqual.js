@@ -12,7 +12,15 @@ const eqArrays = function (array1, array2) {
 };
 
 //assertArraysEqual function
-
-
+const assertArraysEqual = function (arr1, arr2) {
+  if (eqArrays(arr1, arr2) === true) {
+    console.log(`✔️✔️✔️: ${arr1} === ${arr2}`);
+  } else {
+    console.log(`❌❌❌: ${arr1} !== ${arr2}`);
+  }
+};
 
 // ===TEST CODE===
+console.log(assertArraysEqual([1, 2, 3], [1, 2, 3])); //true
+console.log(assertArraysEqual([1, 4, 3], [1, 2, 3])); //false
+console.log(assertArraysEqual([1, 2, 3, 6, 7], [1, 2, 3])); //false
