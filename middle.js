@@ -31,6 +31,7 @@ const assertArraysEqual = function (arr1, arr2) {
   }
 };
 
+//middle function
 const middle = function (arr) {
   let result = [];
   if (arr.length === 1 || arr.length === 2) {
