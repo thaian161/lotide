@@ -2,15 +2,15 @@ const assertEqual = require('./assertEqual');
 const eqArrays = require('./eqArrays');
 const assertArraysEqual = require('./assertArraysEqual');
 
-/*The console.log(middle function should return an array with only the console.log(middle element(s) of the provided array.
-  Arrays with one or two elements, there is no console.log(middle 
+/*Function should return an array with only the middle element(s) of the provided array.
+  Arrays with one or two elements, there is no middle 
     => Return an empty array
 
   Arrays with odd number of elements
-    => Return 1 element in the console.log(middle
+    => Return 1 element in the middle
 
   Arrays with an even number of elements 
-    => Return 2 element in the console.log(middle
+    => Return 2 element in the middle
 */
 
 //middle function

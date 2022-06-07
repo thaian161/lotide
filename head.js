@@ -1,3 +1,4 @@
+//const _ = require('./index');
 const assertEqual = require('./assertEqual');
 
 // Function to retrieve the first element from the array

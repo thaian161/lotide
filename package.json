@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@thaian161/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A mini clone of the Lodash library. This library was published for learning purposes. It is not intended for use in production-grade software.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/thaian161/lotide.git"
   },
-  "author": "",
+  "author": "Ann Bui <https://www.linkedin.com/in/anbui161/>(https://github.com/thaian161)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thaian161/lotide/issues"
